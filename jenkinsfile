@@ -1,0 +1,20 @@
+Pipeline {
+
+  agent any 
+  
+  stages{
+  
+  stage('Git checkout') {
+  
+  steps{
+  
+    git 'https://github.com/naveen706706/springboot.git'
+    
+    }
+    
+    }
+    
+    }
+    
+ }
+
